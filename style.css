@@ -97,9 +97,12 @@ nav {
 .nav__logo {
   display: flex;
   align-items: center;
-  margin: 8px 0;
-  padding-bottom: 4px;
 }
+
+.nav__logo--img {
+  display: block;
+}
+
 .nav__logo--title {
   font-weight: 900;
   font-size: 24px;
@@ -1526,14 +1529,16 @@ footer {
 }
 
 .logo {
-     max-width: 60px;
-     margin: 0 auto;
-     position: absolute;
+     width: 40px;
+     height: 40px;
 }
 
 .header {
-     display: flex;
-     align-items: center;
-     gap: 130px;
-     flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+h1 {
+     font-size: 30px;
 }
