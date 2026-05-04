@@ -1533,9 +1533,7 @@ footer {
 
 .header {
      display: flex;
+     align-items: center;
+     gap: 130px;
      flex-direction: column;
-}
-
-h1 {
-     padding-left: 100px;
 }
